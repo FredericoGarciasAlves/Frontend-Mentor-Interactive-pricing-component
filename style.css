@@ -1,0 +1,297 @@
+body {
+  background: url(./assets/images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  font-family: 'Monrope', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--body-background);
+  padding-bottom: 13.7rem;
+}
+
+.header {
+  height: 14.5rem;
+  background: url(./assets/images/pattern-circles.svg) center no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  margin-top: 6.7rem;
+}
+.header .title {
+  font-size: 3.4rem;
+  color: var(--Dark-Desaturated-Blue);
+}
+
+.header .paragrath-header {
+  font-size: 1.7rem;
+  color: var(--Grayish-Blue);
+}
+
+.main {
+  width: 54rem;
+  height: 39.7rem;
+  background-color: var(--White);
+  padding: 40px 47px 32px 47px;
+  border-radius: 10px;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.main .grid-price {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 2.4rem;
+}
+
+.grid-price .pageviews {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+}
+
+.grid-price span {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.grid-price span .price {
+  margin-left: 11rem;
+  color: var(--Dark-Desaturated-Blue);
+  font-size: 4.9rem;
+}
+
+.grid-price span .data {
+  font-size: 1.8rem;
+  color: var(--Grayish-Blue);
+  height: 2.2rem;
+  width: 7rem;
+}
+
+input[type='range'] {
+  -webkit-appearance: none; /* Chrome, Safari, Opera */
+  -moz-appearance: none; /* Firefox */
+  appearance: none;
+  width: 444px;
+  height: 8px; /* altura da track */
+  background: transparent; /* necessário para o gradiente JS aparecer */
+  cursor: pointer;
+  margin: 1.6rem 0rem;
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+/* Track (fundo) transparente */
+input[type='range']::-webkit-slider-runnable-track {
+  width: 444px;
+  height: 8px;
+  background: transparent;
+  border-radius: 4px;
+  border: none;
+}
+input[type='range']::-moz-range-track {
+  width: 444px;
+  height: 8px;
+  background: transparent;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Thumb padrão */
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 40px;
+  background: url(./assets/images/icon-slider.svg) center no-repeat;
+  background-size: 23px;
+  background-color: var(--Strong-Cyan);
+  box-shadow: 0px 20px 25px -2px hsla(174, 86%, 45%, 0.6);
+  border: none;
+  border-radius: 50%;
+  margin-top: -15px; /* (20px/2 – 8px/2 = 6px) centraliza verticalmente */
+  cursor: pointer;
+}
+input[type='range']::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  background: url(./assets/images/icon-slider.svg) center no-repeat;
+  background-size: 23px;
+  background-color: var(--Strong-Cyan);
+  box-shadow: 0px 20px 25px -2px hsla(174, 86%, 45%, 0.6);
+  border: none;
+  border-radius: 50%;
+  margin-top: -15px;
+  cursor: pointer;
+}
+
+/* Hover opcional no thumb */
+input[type='range']::-webkit-slider-thumb:hover {
+  filter: brightness(1.2);
+}
+input[type='range']::-moz-range-thumb:hover {
+  filter: brightness(1.2);
+}
+
+/*  ─── NOVA SESSÃO: deixa o thumb semitransparente enquanto está “ativo” ───  */
+
+/* No clique/arraste (active) */
+input[type='range']::-webkit-slider-thumb:active {
+  filter: brightness(0.7);
+}
+input[type='range']::-moz-range-thumb:active {
+  filter: brightness(0.7);
+}
+
+/* Se quiser também no foco (tabulação / navegadores que dão foco ao thumb) */
+input[type='range']::-webkit-slider-thumb:focus {
+  filter: brightness(0.7);
+}
+input[type='range']::-moz-range-thumb:focus {
+  filter: brightness(0.7);
+}
+
+/*  ─── (continuação das suas outras regras, se houver) ───  */
+
+.main .box-year-month {
+  display: flex;
+  margin-top: 4rem;
+  column-gap: 9px;
+  align-items: center;
+}
+
+.box-year-month .month-label {
+  font-size: 1.3rem;
+  color: var(--Grayish-Blue);
+}
+
+/* Entender como esse input checkbox funciona */
+
+.toggle-switch {
+  position: relative;
+  width: 43px;
+  height: 22px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.toggle-switch:hover .slider {
+  background: var(--Soft-Cyan);
+}
+
+.toggle-switch input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  margin: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.toggle-switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--input-checkbox);
+  border-radius: 20px;
+  transition: background 0.3s;
+  z-index: 1; /* slider fica “abaixo” do input invisível */
+}
+
+.toggle-switch .slider:hover {
+  background: var(--Soft-Cyan);
+}
+
+.toggle-switch .slider::before {
+  content: '';
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  left: 4.9px;
+  bottom: 4.5px;
+  background: var(--White);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+.box-year-month .toogle-switch-data {
+  font-size: 1.3rem;
+  color: var(--Grayish-Blue);
+}
+
+.box-year-month .discount {
+  width: 8rem;
+  height: 2rem;
+  background-color: var(--Light-Grayish-Red);
+  color: var(--Light-Red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+hr {
+  width: 540px;
+  margin-right: -4.7rem;
+  background-color: var(--Light-Grayish-Blue);
+  border: 1px solid var(--Light-Grayish-Blue);
+  margin-top: 4rem;
+}
+
+.main .footer-box {
+  margin-top: 3.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-box .checked-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.checked-box .box-checked {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.checked-box .box-checked img {
+  width: 7px;
+  height: 7px;
+}
+
+.checked-box .box-checked .span-check {
+  color: var(--Grayish-Blue);
+  font-size: 1.3rem;
+}
+
+.footer-box .btn-start {
+  width: 17rem;
+  height: 4rem;
+  background-color: var(--Dark-Desaturated-Blue);
+  color: var(--Light-Grayish-Blue);
+  border-radius: 2rem;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}

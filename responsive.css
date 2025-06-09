@@ -1,0 +1,115 @@
+@media (max-width: 375px) {
+  body {
+    background-size: 100% 40%;
+    padding-bottom: 8.8rem;
+  }
+
+  .header {
+    height: 14.5rem;
+    width: 31.2rem;
+    background-position: right 77px top 0px;
+    row-gap: 0.8rem;
+    margin-top: 5.7rem;
+    align-items: center;
+  }
+
+  .header .title {
+    font-size: 2.3rem;
+    color: var(--Dark-Desaturated-Blue);
+  }
+
+  .header .paragrath-header {
+    font-size: 1.45rem;
+    line-height: 2.5rem;
+    width: 18rem;
+  }
+
+  .main {
+    width: 32.7rem;
+    height: 47.8rem;
+    padding: 34px 11px 32px 24px;
+    margin-top: 3.2rem;
+  }
+
+  .main .grid-price {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    row-gap: 2.4rem;
+    justify-content: center;
+    margin-right: 13px;
+    width: 27.9rem;
+  }
+
+  .grid-price .pageviews {
+    font-size: 1.5rem;
+    grid-area: 1 / 1 / 2 /3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .box-price-data {
+    grid-area: 3 / 1 / 4/ 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-price span .price {
+    margin-left: 0rem;
+    font-size: 4rem;
+    column-gap: 6px;
+    justify-content: center;
+  }
+
+  .grid-price span .data {
+    font-size: 1.3rem;
+    height: 1.9rem;
+  }
+
+  input[type='range'] {
+    width: 279px;
+  }
+
+  /* Track (fundo) transparente */
+  input[type='range']::-webkit-slider-runnable-track {
+    width: 279px;
+  }
+  input[type='range']::-moz-range-track {
+    width: 279px;
+  }
+
+  .main .box-year-month {
+    margin-top: 3.4rem;
+    column-gap: 5px;
+  }
+
+  .toggle-switch {
+    width: 43px;
+    height: 22px;
+  }
+
+  .box-year-month .discount {
+    width: 4.2rem;
+  }
+
+  hr {
+    width: 327px;
+    margin-right: -10px;
+    background-color: var(--Light-Grayish-Blue);
+    border: 1px solid var(--Light-Grayish-Blue);
+    margin-top: 4rem;
+  }
+
+  .main .footer-box {
+    margin-top: 24px;
+    row-gap: 32px;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-box .checked-box {
+    align-items: center;
+  }
+  .footer-box .btn-start {
+    margin-top: 32px;
+  }
+}
