@@ -50,7 +50,7 @@ Meu começo tive foi sem nem uma exitação à fazer o projeto projeto, Com isso
 
 ### O que eu aprendi
 
-Não ainda me encontrei a questionar o natural, por isso nesse projeto aprendi a modularizar o código com isso não especificar as partes e um melhor entendimento e consolidação de conceitos já aplicados e entendidos. Como a fase que estudei novamente HTML e CSS estive bastante envolvido com semântica me falta entendimento de melhores contrastes de cores nesse projeto por exemplo não tive uma opiniaõ formada a questionar as cores que foram utilizadas, se fosse chutar questionaria as cores de fundo do banckground em questão ao conteúdo principal, em monitores um pouco mais antigos como um que tenho o contraste ficou inexistente, experênciado por mim mesmo. E uma última coisa que reforcei é que tem uma versão de CSS e provavelmente para JS para cada navegador.
+Não ainda me encontrei a questionar o natural, por isso nesse projeto aprendi a modularizar o código, com isso não especificar as partes, um melhor entendimento e consolidação de conceitos já aplicados e entendidos. Como a fase que estudei novamente HTML e CSS estive bastante envolvido com semântica me faltando somente entendimento de melhores contrastes de cores. Nesse projeto por exemplo não tive uma opiniaõ formada a questionar as cores que foram utilizadas, se fosse chutar questionaria as cores de fundo do banckground em questão ao conteúdo principal, em monitores um pouco mais antigos como um que tenho o contraste ficou inexistente, experênciado por mim mesmo. E uma última coisa que reforcei é que tem uma versão de CSS e provavelmente de JS para cada navegador.
 
 ### Continuar desenvolvendo
 
@@ -67,4 +67,4 @@ Projetar sobre a página um formulário para preenchimento do cartão e modifica
 
 ## Agradescimentos
 
-Agradscimentos ao chatGPT mesmo na versão paga de menos custo está proporcionando uma boa versão de resultados e os projetos do Frontend Mentor, aonde com projetos estou além de praticar me aperfeiço-o como pessoa também e ao pessoal da comunidade do mesmo.
+Agradscimentos ao chatGPT mesmo na versão paga de menos custo está proporcionando uma boa versão de resultados e os projetos do Frontend Mentor, aonde com projetos estou além de praticar me aperfeiço-o como pessoa também, ao pessoal da comunidade do mesmo.
