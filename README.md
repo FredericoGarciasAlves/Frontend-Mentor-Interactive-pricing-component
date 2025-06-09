@@ -35,73 +35,36 @@ Os usuários devem poder:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/FredericoGarciasAlves/Frontend-Mentor-Interactive-pricing-component)
+- Live Site URL: [GitHub](https://fredericogarciasalves.github.io/Frontend-Mentor-Interactive-pricing-component/)
 
-## My process
+## Meu processo?
 
-### Built with
+Meu começo tive foi sem nem uma exitação à fazer o projeto projeto, Com isso eu parti diretamente a pratica, quando me deparo á pensar sobre como funcionaria o projeto, assim pesquisei e com sem um resultado conclusivo, elaborei com meu proprio saber com base no que tinha em mão, assim instigado (por botar em pratica minhas ideias do que é melhor para o projeto) que era na verdade o primeiro valor seria o ano e o botão de mês aplicaria o valor a mais de 25 por cento, isso em meio ao CSS aonde já tinha feito a estrutura do HTML e estava a execução do CSS, por motivos que quando estava fazendo o CSS tive que pesquisar como fazer a barra e o icone, tive que fazer (por motivos de não saber outra forma) a estilização via JS e com isso no meio de abrir o foco estrou em minha rede partes de fazer o JS, aonde tive um problema que não tinha lógica aplicar um mês aonde no modelo do figma já estava aplicando sem mesmo a checkbox estar selecionada. O HTML foi escrito quase todo à mão somente a box com classe toggle-switch foi buscado em outro projeto, estou prioritariamente procurando fazer projetos assim por motivos de ter esses projetos estão sendo aprendidos praticados, Estou em uma faze que me inclina a aprender assim, e assim você vera mais a frente nesse relato o mesmo. O CSS também foi escrito majoritariamente à mão partes como o input type range e input type checkbox foram pesquisados, aplicados e resutilizados respectivamente. O JS não tive aquele paradigma de fazer a "intêligencia" o que não movimentou muito, Como era pouco coisa deixei pra ser feito depois do final de semâna, nesse meio de sexta, sabádo e domingo me contentei em praticar outras coisas que vão além de programar como, porque as facetas da vida, só não encontrei os pra que, mas me satisfez saber que em momentos que eu me deparar com contextos aonde caiba irei praticar (cada projeto tem seu único), dessa vez nesse modelo a minha experiência, claro que no final de domingo no monotômo me inclinei a movimentar e comecei a justamente a pensar no projeto o que me desencadeou uma sequência de acontecimentos programados de muito bom gosto, por estar praticando a bastante tempo, a experiência foi levantamento de conceitos e com isso novos conceitos trabalhados e conectados, no outro dia (segunda-feira) o projeto faltando terminar o JS, foi finalizado em 50 minutos no relógio.
+
+### Contruido com
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### O que eu aprendi
 
-### What I learned
+Não ainda me encontrei a questionar o natural, por isso nesse projeto aprendi a modularizar o código com isso não especificar as partes e um melhor entendimento e consolidação de conceitos já aplicados e entendidos. Como a fase que estudei novamente HTML e CSS estive bastante envolvido com semântica me falta entendimento de melhores contrastes de cores nesse projeto por exemplo não tive uma opiniaõ formada a questionar as cores que foram utilizadas, se fosse chutar questionaria as cores de fundo do banckground em questão ao conteúdo principal, em monitores um pouco mais antigos como um que tenho o contraste ficou inexistente, experênciado por mim mesmo. E uma última coisa que reforcei é que tem uma versão de CSS e provavelmente para JS para cada navegador.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### Continuar desenvolvendo
 
-To see how you can add code snippets, see below:
+Projetar sobre a página um formulário para preenchimento do cartão e modificar as paletas de cores para um melhor constraste.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+## Autor
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+- YouTube - [Valdevorte](https://www.youtube.com/@valdevorte2702)
+- Frontend Mentor - [@FredericoGarciasAlves](https://www.frontendmentor.io/profile/FredericoGarciasAlves)
+- Twitter - [@FredericoGA70](https://x.com/FredericoGA70)
+- Facebook - [Fred Garcias](https://www.facebook.com/fred.garcias.1)
+- instagram - [@fred_alves23](https://www.instagram.com/fred_alves23/)
+- Linkedin - [frederico garcias alves](https://www.linkedin.com/in/frederico-garcias-alves-8730722b5/)
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
+## Agradescimentos
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Agradscimentos ao chatGPT mesmo na versão paga de menos custo está proporcionando uma boa versão de resultados e os projetos do Frontend Mentor, aonde com projetos estou além de praticar me aperfeiço-o como pessoa também e ao pessoal da comunidade do mesmo.

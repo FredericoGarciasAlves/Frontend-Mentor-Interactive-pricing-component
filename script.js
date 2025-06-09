@@ -58,10 +58,6 @@ function rangePricePageviews() {
   } else if (val >= 40 && val <= 50) {
     pageviews.textContent = viewsText[4];
     price.textContent = priceOn[4];
-  } else {
-    // valor fora do esperado
-    pageviews.textContent = '—';
-    price.textContent = '$0.00';
   }
 }
 atualizarGradiente();

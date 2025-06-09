@@ -29,7 +29,14 @@
         <span class="box-price-data"
           ><b class="price">$13.50</b> <span class="data">/ year</span></span
         >
-        <input type="range" id="rangeDinamico" min="0" max="50" value="25" />
+        <input
+          type="range"
+          id="rangeDinamico"
+          min="0"
+          max="50"
+          value="25"
+          aria-labelledby="A slider control that decreases the value when moved to the left and increases it when moved to the right."
+        />
       </div>
       <div class="box-year-month">
         <label class="month-label" for="month">Monthly Billing</label>
@@ -39,6 +46,8 @@
             name="inactive-active-input"
             class="input-checkbox"
             id="toggle-switch"
+            aria-labelledby="A button to toggle the month option on and off.
+            "
           />
           <span tabindex="0" class="slider"></span>
         </div>
